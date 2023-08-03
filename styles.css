@@ -1,0 +1,44 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('img/black-jack-table.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+h1 {
+    color: goldenrod;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 1rem;
+}
+
+.primary-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+    padding-bottom: 3rem;
+    background-color: hsl(0 0% 0% / 0.5);
+    width: 1000px;
+}
+.btn-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    place-items: center;
+}
+
+button {
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    width: 200px;
+    height: 35px;
+}
